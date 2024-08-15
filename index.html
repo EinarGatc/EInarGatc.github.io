@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>MyHomePage</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul class="navbar-container">
+            <a class="nav-item" href="#section-1">About</a>
+            <a class="nav-item" href="#section-2">Portfolio</a>
+            <a class="nav-item" href="#section-3">Contact</a>
+        </ul>
+    </div>
+    <div class="socials-bar">
+        <div class="vl-top"></div>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/egatchal/" class="fa fa-linkedin-square"></a></li>
+            <li><a href="https://github.com/egatchal" class="fa fa-github" ></a></li>
+            <li><a href="mailto:einar.gatchalian@gmail.com" class="fa fa-envelope"></a></li>
+        </ul>
+        <div class="vl-bot"></div>
+    </div>
+        
+    <div class="hero">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="container hero-container">
+            <div class="hero-content-container">
+                <div class="hero-content">
+                    <header class="hero-header">
+                        <span>
+                            Einar
+                            <br>
+                            Gatchalian
+                        </span>
+                    </header>
+                    <header class="hero-section">
+                        <span>
+                            My passion is crafting scalable and efficient software
+                            <br>
+                            that benefits humanity. I value health, education, 
+                            <br>
+                            and security.
+                        </span>
+                    </header>
+                    <a class="button" href="#section-1">About Me</a>
+                </div>
+                <!-- <img src="MyPhoto.jpeg" alt="Einar Gatchalian">     -->
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="about" id="section-1">
+        <header class="about-header">About Me</header>
+        <div class="container about-container">
+            <div class="about-content-container">
+                <span class="about-text">
+                    I am a fourth-year computer science student with a 
+                    minor in statistics at UCI. I am interested in AI 
+                    and software development.
+                    <br>
+                    <br>
+                    With a desire for knowledge, I have learned that I 
+                    grow through rapid research, implementation, and 
+                    teaching. Teaching is essential to my learning 
+                    methodology as it tests my understanding and 
+                    communication capabilities.
+                </span>
+                <img class="portrait" src="images/Profile.jpg" alt="Einar Gatchalian">    
+            </div>
+        </div>
+    </div>
+    
+    <div class="portfolio" id="section-2">
+        <header class="portfolio-header">Portfolio</header>
+        <div class="container portfolio-container">
+            <ul class="image-list">
+
+                <div class="project">
+                    <div class="project-container">
+                        <div class="project-image">
+                            <img class="project-image-container" src="images/SearchEngine.png"></img>    
+                        </div>
+                        
+                        <div class="project-description">
+                            <div class="project-description-container">
+                                <header class="project-name">UCI Search Engine</header>
+                                <span class="project-text">
+                                    Developed a high-performance search engine
+                                    capable of efficiently managing tens of 
+                                    thousands of documents and web pages, 
+                                    operating under stringent operational 
+                                    constraints while maintaining query 
+                                    response times under 300ms.
+                                </span>
+                                <a class="button" href="https://github.com/egatchal/Assignment3">View More</a>    
+                            </div>
+                            
+                        </div>    
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-container">
+                        <div class="project-image">
+                            <img class="project-image-container" src="images/BuddyCam.png"></img>    
+                        </div>
+                        
+                        <div class="project-description">
+                            <div class="project-description-container">
+                                <header class="project-name">BuddyCam</header>
+                                <span class="project-text">
+                                    Designed and implemented a home security 
+                                    system using Amazon Rekognition, integrating 
+                                    an ESP32-Cam and Lilygo TTGO ESP32 Board to 
+                                    capture and upload frames to an AWS instance 
+                                    via Wi-Fi.
+                                </span>
+                                <a class="button" href="https://github.com/egatchal/CS147_CV_Project" class="button">View More</a>   
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                
+                <div class="project">
+                    <div class="project-container">
+                        <div class="project-image">
+                            <img class="project-image-container" src="images/MPE.gif"></img>    
+                        </div>
+                        
+                        <div class="project-description">
+                            <div class="project-description-container">
+                                <header class="project-name">Multi-Agent AI</header>
+                                <span class="project-text">
+                                    Implemented multi-agent reinforcement learning 
+                                    models for Soccer--Twos and Multi--agent 
+                                    Particle Environment. Implemented Sample Dropout 
+                                    Variance Reduction and various reward shaping 
+                                    techniques within the MAPPO, RMAPPO, IPPO, 
+                                    PSRO algorithms to increase rewards.
+                                </span>
+                                <a class="button" href="https://github.com/eddie100971/soccer-twos-working">View More</a>    
+                            </div>
+                            
+                        </div>    
+                    </div>
+                </div>
+                
+            </ul>
+        </div>
+    </div>
+
+    <div class="contact" id="section-3">
+        <div class="container contact-container">
+            <div class="contact-form-container">
+                <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    
+                    <header class="contact-form-header">Send me a message!</header>
+                    <span class="contact-form-text">
+                        Want to ask a question or work together?
+                        Lets start a conversation.
+                    </span>
+                    <input type="hidden" name="access_key" value="0d12f5a6-8b60-45e0-be9a-50cec1073e1d">
+                    <input type="text" name="name" placeholder="Enter your name" class="contact-inputs" required> 
+                    <input type="email" name="email" placeholder="Enter your email address" class="contact-inputs" required>    
+                    <textarea name="message" placeholder="Enter your message" class="contact-inputs-message" required></textarea>
+                    <button class="submit">Submit</button>
+                </form>
+                <div class="contact-information">
+                    <div class="contact-info">
+                        <header class="contact-info-header">Info</header>
+                        <a href="mailto:einar.gatchalian@gmail.com"><i class="fa fa-envelope"></i> einar.gatchalian@gmail.com</a>
+                        <a href=""><i class="fa fa-map-marker"></i> Riverside, CA</a>
+                    </div>
+                    <div class="contact-info">
+                        <header class="contact-info-header">Socials</header>
+                        <a href="https://www.linkedin.com/in/egatchal/"><i class="fa fa-linkedin-square"></i> Einar Gatchalian</a>
+                        <a href="https://github.com/egatchal"><i class="fa fa-github" ></i> egatchal</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
